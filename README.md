@@ -40,7 +40,7 @@ Para cadastrar novos usuários ou senhas:
 2. O formato exigido é uma lista separada por vírgulas de `usuario:senha`.
 3. Exemplo:
    ```env
-   AUTH_USERS="admin:123,amanda@smart.com:Amanda@1020,corretor1:senhaSegura"
+   AUTH_USERS="admin:123,corretor1:senhaSegura"
    ```
 
 A API interna de proxy (`/api/consulta`) também possui um Middleware de validação do Cookie para evitar consumo indevido da franquia da API real caso a URL vaze.
@@ -68,7 +68,7 @@ MARGEM_API_KEY="SuaChaveDeApiAqui"
 USE_MOCK_API="false"
 
 # Usuários permitidos a fazer Login no sistema
-AUTH_USERS="admin:123,amanda@smart.com:Amanda@1020"
+AUTH_USERS="admin:123"
 ```
 
 ### 3. Rodar o Servidor
