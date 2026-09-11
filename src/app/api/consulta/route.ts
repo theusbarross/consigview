@@ -124,7 +124,6 @@ export async function GET(request: Request) {
     }
 
     const data = await apiRes.json();
-    require('fs').writeFileSync('./debug_api.json', JSON.stringify(data, null, 2));
     return NextResponse.json(data);
   } catch (error) {
     console.error('API Fetch Error:', error);
