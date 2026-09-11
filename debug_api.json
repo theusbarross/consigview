@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "status": "ok",
+    "attempts_key": 0,
+    "max_attempts_key": 3,
+    "attempts_extr": 1,
+    "max_attempts_extr": 3
+  },
+  "cpf": "46012192568",
+  "nome": "MARCIA LEAL DE FREITAS",
+  "processado_em": "2026-09-11T14:52:13.836592+00:00",
+  "servidores": [
+    {
+      "matricula": "111124189510000",
+      "tipo_servico": "EMPRESTIMO",
+      "servico": "EMPRÉSTIMO - 1",
+      "margem_disponivel": "303,03",
+      "margem_total": "2988,19",
+      "consignatarias": [
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Deferida",
+          "ade": "8797783",
+          "servico": "EMPRÉSTIMO - 1 - 5017",
+          "qtd_prestacao": "96",
+          "prestacoes_pagas": "8",
+          "vlr_prestacao": "2653,96",
+          "deferimento": "09/12/2025",
+          "quitacao": "",
+          "dt_ultimo_desconto": "01/08/2026",
+          "dt_ultima_parcela": "01/12/2033"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "212182",
+          "servico": "EMPRÉSTIMO - 1 - 5017",
+          "qtd_prestacao": "37",
+          "prestacoes_pagas": "37",
+          "vlr_prestacao": "394,61",
+          "deferimento": "01/11/2014",
+          "quitacao": "26/10/2017",
+          "dt_ultimo_desconto": "01/10/2017",
+          "dt_ultima_parcela": "01/10/2017"
+        },
+        {
+          "consignataria": "BANCO - DIGIO [1684]",
+          "situacao": "Quitada",
+          "ade": "238924",
+          "servico": "EMPRÉSTIMO - 1 - 5017",
+          "qtd_prestacao": "2",
+          "prestacoes_pagas": "2",
+          "vlr_prestacao": "129,05",
+          "deferimento": "01/11/2014",
+          "quitacao": "25/11/2014",
+          "dt_ultimo_desconto": "01/11/2014",
+          "dt_ultima_parcela": "01/11/2014"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "2711445",
+          "servico": "EMPRÉSTIMO - 2 - 5020",
+          "qtd_prestacao": "48",
+          "prestacoes_pagas": "48",
+          "vlr_prestacao": "373,20",
+          "deferimento": "14/07/2017",
+          "quitacao": "31/10/2017",
+          "dt_ultimo_desconto": "01/07/2021",
+          "dt_ultima_parcela": "01/07/2021"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "2836364",
+          "servico": "EMPRÉSTIMO - 2 - 5020",
+          "qtd_prestacao": "60",
+          "prestacoes_pagas": "60",
+          "vlr_prestacao": "960,29",
+          "deferimento": "31/10/2017",
+          "quitacao": "27/04/2018",
+          "dt_ultimo_desconto": "01/12/2022",
+          "dt_ultima_parcela": "01/12/2022"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "3038241",
+          "servico": "EMPRÉSTIMO - 2 - 5020",
+          "qtd_prestacao": "96",
+          "prestacoes_pagas": "96",
+          "vlr_prestacao": "978,00",
+          "deferimento": "27/04/2018",
+          "quitacao": "09/01/2019",
+          "dt_ultimo_desconto": "01/05/2026",
+          "dt_ultima_parcela": "01/05/2026"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "4044333",
+          "servico": "EMPRÉSTIMO - 2 - 5020",
+          "qtd_prestacao": "96",
+          "prestacoes_pagas": "96",
+          "vlr_prestacao": "1467,91",
+          "deferimento": "09/01/2019",
+          "quitacao": "28/10/2019",
+          "dt_ultimo_desconto": "01/01/2027",
+          "dt_ultima_parcela": "01/01/2027"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "4510830",
+          "servico": "EMPRÉSTIMO - 2 - 5020",
+          "qtd_prestacao": "96",
+          "prestacoes_pagas": "96",
+          "vlr_prestacao": "1516,20",
+          "deferimento": "28/10/2019",
+          "quitacao": "03/01/2024",
+          "dt_ultimo_desconto": "01/11/2027",
+          "dt_ultima_parcela": "01/11/2027"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "4727452",
+          "servico": "EMPRÉSTIMO - 1 - 5017",
+          "qtd_prestacao": "96",
+          "prestacoes_pagas": "96",
+          "vlr_prestacao": "50,60",
+          "deferimento": "07/02/2020",
+          "quitacao": "03/01/2024",
+          "dt_ultimo_desconto": "01/02/2028",
+          "dt_ultima_parcela": "01/02/2028"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "7644837",
+          "servico": "EMPRÉSTIMO - 1 - 5017",
+          "qtd_prestacao": "96",
+          "prestacoes_pagas": "96",
+          "vlr_prestacao": "1611,17",
+          "deferimento": "03/01/2024",
+          "quitacao": "09/12/2025",
+          "dt_ultimo_desconto": "01/01/2032",
+          "dt_ultima_parcela": "01/01/2032"
+        },
+        {
+          "consignataria": "BANCO - BRASIL [360]",
+          "situacao": "Quitada",
+          "ade": "8116748",
+          "servico": "EMPRÉSTIMO - 2 - 5020",
+          "qtd_prestacao": "60",
+          "prestacoes_pagas": "60",
+          "vlr_prestacao": "795,14",
+          "deferimento": "02/10/2024",
+          "quitacao": "09/12/2025",
+          "dt_ultimo_desconto": "01/10/2029",
+          "dt_ultima_parcela": "01/10/2029"
+        }
+      ]
+    },
+    {
+      "matricula": "111124189510000",
+      "tipo_servico": "MENSALIDADE",
+      "servico": "MENSALIDADE - 1 - ROTINA VALOR",
+      "margem_disponivel": "486,30",
+      "margem_total": "486,30",
+      "consignatarias": []
+    },
+    {
+      "matricula": "111124189510000",
+      "tipo_servico": "BENEFICIO",
+      "servico": "BENEFÍCIO - 1 - ASSISTENCIAL",
+      "margem_disponivel": "1086,62",
+      "margem_total": "1086,62",
+      "consignatarias": [
+        {
+          "consignataria": "ASSOCIAÇÃO - ASSEBA [061]",
+          "situacao": "Cancelada",
+          "ade": "5254556",
+          "servico": "BENEFÍCIO - 1 - ASSISTENCIAL - 5041",
+          "qtd_prestacao": "36",
+          "prestacoes_pagas": "0",
+          "vlr_prestacao": "586,29",
+          "deferimento": "",
+          "quitacao": "09/03/2021",
+          "dt_ultimo_desconto": "",
+          "dt_ultima_parcela": ""
+        }
+      ]
+    },
+    {
+      "matricula": "111124189510000",
+      "tipo_servico": "CREDCESTA",
+      "servico": "BENEFÍCIO - CREDCESTA - SAQUE",
+      "margem_disponivel": "1358,27",
+      "margem_total": "1358,27",
+      "consignatarias": [
+        {
+          "consignataria": "CARTÃO - CREDCESTA [10006]",
+          "situacao": "Quitada",
+          "ade": "3569004",
+          "servico": "BENEFÍCIO - CREDCESTA - SAQUE - 5093",
+          "qtd_prestacao": "",
+          "prestacoes_pagas": "",
+          "vlr_prestacao": "808,76",
+          "deferimento": "25/10/2018",
+          "quitacao": "05/09/2019",
+          "dt_ultimo_desconto": "",
+          "dt_ultima_parcela": ""
+        }
+      ]
+    },
+    {
+      "matricula": "111124189510000",
+      "tipo_servico": "CREDCESTA_COMPRA",
+      "servico": "BENEFÍCIO - CREDCESTA - COMPRA",
+      "margem_disponivel": "1358,27",
+      "margem_total": "1358,27",
+      "consignatarias": [
+        {
+          "consignataria": "CARTÃO - CREDCESTA [10006]",
+          "situacao": "Cancelada",
+          "ade": "3569003",
+          "servico": "BENEFÍCIO - CREDCESTA - COMPRA - 5092",
+          "qtd_prestacao": "",
+          "prestacoes_pagas": "",
+          "vlr_prestacao": "1223,85",
+          "deferimento": "25/10/2018",
+          "quitacao": "18/12/2024",
+          "dt_ultimo_desconto": "",
+          "dt_ultima_parcela": ""
+        }
+      ]
+    }
+  ]
+}
