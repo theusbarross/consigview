@@ -22,8 +22,8 @@ function gerarMockRaw(cpf: string): RespostaConsiglogRaw {
       {
         matricula: '9876543',
         tipo_servico: 'EMPRÉSTIMO - 1',
-        margem_disponivel: 450.0,
-        margem_total: 2000.0,
+        margem_disponivel: '450.00',
+        margem_total: '2000.00',
         consignatarias: [
           {
             nome: 'BANCO DO BRASIL S.A.',
@@ -31,29 +31,29 @@ function gerarMockRaw(cpf: string): RespostaConsiglogRaw {
             contratos: [
               {
                 numero: '1111111',
-                valor_parcela: 550.0,
+                vlr_prestacao: '550.00',
                 saldo_devedor: 15000.0,
                 situacao: 'Deferida',
                 ade: 'ADE-12345',
-                prestacoes: 96,
-                pagas: 24,
+                qtd_prestacao: '96',
+                prestacoes_pagas: '24',
                 deferimento: '2022-05-10',
                 quitacao: null,
-                ultimo_desconto: '2024-02-10',
-                ultima_parcela: '2030-05-10'
+                dt_ultimo_desconto: '2024-02-10',
+                dt_ultima_parcela: '2030-05-10'
               },
               {
                 numero: '2222222',
-                valor_parcela: 1000.0,
+                vlr_prestacao: '1000.00',
                 saldo_devedor: 0.0,
                 situacao: 'Quitada',
                 ade: 'ADE-54321',
-                prestacoes: 72,
-                pagas: 72,
+                qtd_prestacao: '72',
+                prestacoes_pagas: '72',
                 deferimento: '2018-01-10',
                 quitacao: '2024-01-10',
-                ultimo_desconto: '2024-01-10',
-                ultima_parcela: '2024-01-10'
+                dt_ultimo_desconto: '2024-01-10',
+                dt_ultima_parcela: '2024-01-10'
               }
             ]
           }

@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server';
 // Lista de caminhos públicos que não exigem login
 const publicPaths = ['/login', '/icon.svg', '/favicon.ico'];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   
   // Permite acesso a recursos estáticos e rotas públicas
