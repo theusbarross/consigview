@@ -258,7 +258,14 @@ export default function Dashboard() {
 
               {/* Margens abaixo das oportunidades */}
               <h3 className="text-xl font-bold flex items-center gap-2 tracking-tight mt-10"><Briefcase className="w-6 h-6 text-primary drop-shadow-md" /> Serviços e Margens</h3>
-              {result.margens.map((margem, idx) => {
+              {Object.values(
+                result.margens.reduce((acc, m) => {
+                  if (!acc[m.servico] || m.margemTotal > acc[m.servico].margemTotal) {
+                    acc[m.servico] = m;
+                  }
+                  return acc;
+                }, {} as Record<string, typeof result.margens[0]>)
+              ).map((margem, idx) => {
                 const percentualTomado = calcularPercentualTomado([margem], margem.servico);
                 return (
                   <Card key={idx} className="glass-card hover:-translate-y-1 break-inside-avoid overflow-hidden relative">

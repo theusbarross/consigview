@@ -2,7 +2,9 @@ import { Banco, RegraPerfil } from './storage';
 import { Contrato, Margem } from './margemApi';
 
 export function calcularPercentualTomado(margens: Margem[], servico: string = 'EMPRESTIMO'): number {
-  const margem = margens.find(m => m.servico.toUpperCase().includes(servico.toUpperCase()));
+  const margensDoServico = margens.filter(m => m.servico.toUpperCase().includes(servico.toUpperCase()));
+  const margem = margensDoServico.find(m => m.margemTotal > 0) || margensDoServico[0];
+
   if (!margem || margem.margemTotal === 0) return 0;
   
   const tomada = margem.margemTotal - margem.margemDisponivel;
@@ -41,7 +43,9 @@ export interface Simulacao {
 }
 
 export function simularValores(margens: Margem[], bancos: Banco[], servico: string = 'EMPRESTIMO'): Simulacao[] {
-  const margem = margens.find(m => m.servico.toUpperCase().includes(servico.toUpperCase()));
+  const margensDoServico = margens.filter(m => m.servico.toUpperCase().includes(servico.toUpperCase()));
+  const margem = margensDoServico.find(m => m.margemTotal > 0) || margensDoServico[0];
+
   if (!margem || margem.margemDisponivel <= 0) return [];
 
   const simulacoes: Simulacao[] = [];
